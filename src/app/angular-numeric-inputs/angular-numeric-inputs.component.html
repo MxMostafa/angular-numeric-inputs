@@ -1,0 +1,15 @@
+<div>
+  <input class="form-control input-border center-placeholder input-phonenumber-font"
+  *ngFor="let input of inputs; let i = index"
+  [id]="'otpInput' + i"
+  maxLength="1"
+  required
+  [ngStyle]="{'margin-right': (i !== inputs.length - 1) ? '10px' : '0'}"
+  autocomplete="off"
+  (input)="onInput($event, i)"
+  (keydown)="onKeydown($event, i)"
+  type="text"
+  pattern="[0-9]*"
+  inputmode="numeric" />
+</div>
+
