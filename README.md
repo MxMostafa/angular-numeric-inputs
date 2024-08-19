@@ -1,4 +1,4 @@
-angular-numeric-inputs
+
 angular-numeric-inputs is an Angular component designed for managing multi-digit numeric inputs. It is particularly useful for OTP (One-Time Password) input fields, where users need to enter a code split across several input fields. This component automatically handles navigation between fields and ensures only numeric input is allowed.
 
 Features
